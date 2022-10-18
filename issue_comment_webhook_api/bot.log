@@ -1,0 +1,7 @@
+2022-10-17 18:24:52,418 - INFO - Parsing webhook body to extract repository and PR information
+2022-10-17 18:24:52,419 - INFO - Requesting pull request metdata for PR number 2
+2022-10-17 18:24:52,419 - INFO - https://api.github.com/repos/Codertocat/Hello-World/pulls/2
+2022-10-17 18:24:52,940 - INFO - Pull request information retrieved
+2022-10-17 18:24:52,940 - INFO - Merge URL is https://www.merger.example.com/api/v4/repos/Codertocat/Hello-World/pulls/2/merge
+2022-10-17 18:24:52,940 - INFO - {'base_ref': 'master', 'head_sha': 'ec26c3e57ca3a959ca5aad62de7213c562f8c821', 'requester': 'Codertocat'}
+2022-10-17 18:24:52,941 - ERROR - The comment 'You are totally right! I'll get this fixed right away.' does not contain magic phrase #merge
