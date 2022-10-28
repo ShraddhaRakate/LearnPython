@@ -10,27 +10,24 @@ in larger steps depending on the bids.
 
 # Assumptions
 
-*The inputs consist only of valid bids (no bids with amounts that are lower than the current price)*
+The inputs consist only of valid bids (no bids with amounts that are lower than the current price)
 
 
 # Input
 
-*s,{b,g}* 
+s,{b,g} where 
+- `s` is the initial price
+- `{b, g}` A list of bids consisting of the `bidder‘s name (str)` and the `maximum bid (int)`
 
-**s** is the initial price
-
-a list of bids consisting of the **bidder‘s name (b)**, and the **maximum bid (g, integer value)**.
-
-*Example Input* : 1,A,5,B,10,A,8,A,17,B,17
+Example Input : `1,A,5,B,10,A,8,A,17,B,17`
 
 # Output
 
 **Return Auction price + Highest bidder**
 
-*b,p* 
+b,p where
 
-**b** the name of the highest bidder, 
+- `b` is the name of the highest bidder 
+- `p` is the auction price at which b wins the auction.
 
-**p** is the auction price at which b wins the auction.
-
-*Result of the example above* : A,17
+Result of the example above : `A,17`
